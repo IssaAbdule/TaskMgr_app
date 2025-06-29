@@ -1,0 +1,93 @@
+/* Full page center and background */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form container styling */
+.form-container {
+  background-color: white;
+  padding: 40px 35px;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  min-height: 450px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Heading */
+.form-container h2 {
+  color: #00bfff;
+  margin-bottom: 15px;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* Inputs */
+.form-container input {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  font-size: 16px;
+  color: #333;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-container input:focus {
+  border-color: #00bfff;
+  outline: none;
+}
+
+/* Signup Button */
+.form-container button {
+  width: 100%;
+  padding: 14px;
+  background-color: #00bfff;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 191, 255, 0.4);
+}
+
+.form-container button:hover {
+  background-color: #0095cc;
+  box-shadow: 0 8px 18px rgba(0, 148, 204, 0.6);
+}
+
+/* Paragraph text */
+.form-container p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 12px;
+}
+
+/* Link inside paragraph */
+.form-container p a {
+  color: #00bfff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: text-decoration 0.2s ease;
+}
+
+.form-container p a:hover {
+  text-decoration: underline;
+}
